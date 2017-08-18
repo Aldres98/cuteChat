@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: cuteChat_development
+  pool: 5
+  username: postgres
+  password: 31415926a
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: cuteChat_test
+  pool: 5
+  username: postgres
+  password: 31415926a
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: cuteChat_production
+  pool: 5
+  username: postgres
+  password: 31415926a
